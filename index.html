@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" class="form1" novalidate>
+        <div class="inputGroup">
+            <fieldset>
+                <legend>user registration</legend>
+                <p>rød stjerne skal udfylde</p>
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="firstName">Foranvn</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="text" name="firstName">
+                    </div>
+                    <span class="statusMessage firstName"></span>
+
+                </div>
+                <!--/rowDiv-->
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="lastName">Efternavn</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="text">
+                    </div>
+                    <span class="statusMessage lastName"></span>
+
+                </div>
+                <!--/rowDiv-->
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="email">Email</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="email" placeholder="?????@?????.com" name="email">
+                    </div>
+                    <span class="statusMessage email"></span>
+
+                </div>
+                <!--/rowDiv-->
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="username">Burgernavn</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="text" name="username">
+                    </div>
+                    <span class="statusMessage username"></span>
+
+                </div>
+                <!--/rowDiv-->
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="password">Adgangskode</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="password" placeholder="mindst 8 bogstaver" name="password">
+                    </div>
+                    <span class="statusMessage password"></span>
+
+                </div>
+                <!--/rowDiv-->
+
+                <div class="rowDiv">
+                    <div class="labDiv">
+                        <label for="address">Adresse</label>
+                        <span style="color: red;">*</span>
+                    </div>
+                    <div class="inpdiv">
+                        <input type="text" placeholder="vejnavn husnummer, postnummer, by" name="address">
+                    </div>
+                    <span class="statusMessage address"></span>
+
+
+
+            </fieldset>
+            <div class="submitDiv">
+
+                <div class="inpdiv">
+                    <input type="submit">
+                </div>
+
+            </div> -->
+            <!--/rowDiv-->
+        </div>
+
+    </form>
+
+
+
+
+    <script src="./js/formValidator.js" type="module"></script>
+</body>
+
+</html>
